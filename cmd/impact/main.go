@@ -17,7 +17,7 @@ func main() {
 
 func run() error {
 	if len(os.Args) == 1 {
-		return fmt.Errorf("no args")
+		return nil
 	}
 
 	_, reverse, err := libpackage.ComputeGraph()
